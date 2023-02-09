@@ -1,7 +1,8 @@
 #!/bin/bash
-echo "#!/bin/bash" > 3-new_owner
-echo "su chown betty hello" >> 3-new_owner
-chmod 744 3-new_owner
+fileName = "3-new_owner"
+echo "#!/bin/bash" > $fileName
+echo "sudo chown betty hello" >> $fileName
+chmod 744 $fileName
 git add .
 git commit -m "changes the owner of the file hello to the user betty"
 git push 

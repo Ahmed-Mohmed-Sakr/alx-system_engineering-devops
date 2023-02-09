@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#!/bin/bash" > 11-directories_permissions
-echo "chmod -R a-x,ugo=X ." >> 11-directories_permissions
+echo "chmod -R a-x,ugo=x ." >> 11-directories_permissions
 chmod 744 11-directories_permissions
 git add .
 git commit -m " script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users"

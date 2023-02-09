@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "#!/bin/bash" > 3-new_owner
-echo "sudo chown betty hello" >> 3-new_owner
-chmod 744 3-new_owner
+echo "#!/bin/bash" > 4-empty
+echo "touch hello" >> 4-empty
+chmod 744 4-empty
 git add .
-git commit -m "changes the owner of the file hello to the user betty"
+git commit -m "script that creates an empty file called hello"
 git push 

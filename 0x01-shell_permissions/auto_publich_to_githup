@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#!/bin/bash" > 6-multiple_permissions
-echo "chmod 554 hello" >> 6-multiple_permissions
+echo "chmod 754 hello" >> 6-multiple_permissions
 chmod 744 6-multiple_permissions
 git add .
 git commit -m "script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello"

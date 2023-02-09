@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "#!/bin/bash" > 8-James_Bond
-echo "chmod 007 hello" >> 8-James_Bond
-chmod 744 8-James_Bond
+echo "#!/bin/bash" > 9-John_Doe
+echo "chmod 753 hello" >> 9-John_Doe
+chmod 744 9-John_Doe
 git add .
-git commit -m "script that sets the permission to the file hello with null for ug-rwx  and o+rwx"
+git commit -m "script that sets the mode of the file hello to rwxr-x-wx"
 git push 

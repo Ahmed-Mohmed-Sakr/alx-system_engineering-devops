@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "#!/bin/bash" > 9-John_Doe
-echo "chmod 753 hello" >> 9-John_Doe
-chmod 744 9-John_Doe
+echo "#!/bin/bash" > 10-mirror_permissions
+echo "chmod --reference=olleh hello" >> 10-mirror_permissions
+chmod 744 10-mirror_permissions
 git add .
-git commit -m "script that sets the mode of the file hello to rwxr-x-wx"
+git commit -m "script that sets the mode of the file hello the same as olleh’s mode"
 git push 

@@ -1,1 +1,1 @@
-this repo about shell commands
+linux commands

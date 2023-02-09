@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "#!/bin/bash" > 11-directories_permissions
-echo "chmod -R a-x,u=rwX,go=rX ." >> 11-directories_permissions
-chmod 744 11-directories_permissions
+echo "#!/bin/bash" > 12-directory_permissions
+echo "mkdir -m 751 my_dir" >> 12-directory_permissions
+chmod 744 12-directory_permissions
 git add .
-git commit -m " script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users"
+git commit -m "script that creates a directory called my_dir with permissions 751 in the working directory"
 git push 

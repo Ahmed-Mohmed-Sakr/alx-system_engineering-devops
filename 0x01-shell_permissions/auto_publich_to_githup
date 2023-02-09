@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#!/bin/bash" > 5-execute
-echo "chmod 764 hello" >> 5-execute
+echo "chmod 744 hello" >> 5-execute
 chmod 744 5-execute
 git add .
 git commit -m "script that adds execute permission to the owner of the file hello"

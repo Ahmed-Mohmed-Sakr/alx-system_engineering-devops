@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#!/bin/bash" > 7-everybody
-echo "chmod 777 hello" >> 7-everybody
+echo "chmod 751 hello" >> 7-everybody
 chmod 744 7-everybody
 git add .
 git commit -m " script that adds execution permission to the owner, the group owner and the other users, to the file hello"

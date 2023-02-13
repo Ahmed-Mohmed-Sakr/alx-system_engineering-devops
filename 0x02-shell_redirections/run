@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "20-hiago" "tr -d \"cC\"" "script that removes all letters c and C from input."
+bash auto-publich-script "21-reverse" "rev" "script that reverse its input."

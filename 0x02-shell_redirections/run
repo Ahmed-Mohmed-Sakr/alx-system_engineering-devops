@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "3-twofiles" "cat /etc/passwd /etc/hosts" "Display the content of /etc/passwd and /etc/hosts."
+bash auto-publich-script "4-lastlines" "head -n 10 /etc/passwd" "Display the last 10 lines of /etc/passwd."

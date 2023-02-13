@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "19-AZ" "tr \"Ac\" \"Ze\" " "Replace all characters A and c from input to Z and e respectively."
+bash auto-publich-script "20-hiago" "tr -d \"cC\"" "script that removes all letters c and C from input."

@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "2-hellofile" "cat /etc/passwd" "Display the content of the /etc/passwd file."
+bash auto-publich-script "3-twofiles" "cat /etc/passwd /etc/hosts" "Display the content of /etc/passwd and /etc/hosts."

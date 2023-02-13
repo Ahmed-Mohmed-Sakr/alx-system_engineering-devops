@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "12-newest_files" "ls -t | head -10" "script that displays the 10 newest files in the current directory."
+bash auto-publich-script "13-unique" "sort | uniq -u" "script that takes a list of words as input and prints only words that appear exactly once."

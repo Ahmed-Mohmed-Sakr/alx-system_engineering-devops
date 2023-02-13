@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "0-hello_world" "echo \"Hello, World\"" "script that prints (Hello, World), followed by a new line to the standard output."
+bash auto-publich-script "1-confused_smiley" "echo \"\\\"(Ôo)\\\'\"" "script that displays a confused smiley."

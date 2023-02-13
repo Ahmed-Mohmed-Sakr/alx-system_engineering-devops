@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "7-file" "echo "Best School" > '\*\\'\''\"Best School\"\'\''\\*$\?\*\*\*\*\*:)'" "strange file name."
+bash auto-publich-script "7-file" "echo \"Best School\" > \'\*\\'\''\"Best School\"\'\''\\*$\?\*\*\*\*\*:)\'" "strange file name."

@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "5-firstlines" "head -10 /etc/passwd" "Display the first 10 lines of /etc/passwd."
+bash auto-publich-script "6-third_line" "head -3 iacta | tail -1" "Write a script that displays the third line of the file iacta."

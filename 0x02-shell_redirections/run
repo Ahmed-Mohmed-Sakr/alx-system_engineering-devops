@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "15-countthatword" "grep \"bin\" /etc/passwd | wc -l" "Display the number of lines that contain the pattern “bin” in the file /etc/passwd."
+bash auto-publich-script "16-whatsnext" "grep -A 3 \"root\" /etc/passwd" "Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd."

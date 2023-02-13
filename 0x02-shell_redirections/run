@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "1-confused_smiley" "echo \"\\\"(Ôo)\\\'\"" "script that displays a confused smiley."
+bash auto-publich-script "1-confused_smiley" "echo \"\\\"(Ôo)'\"" "script that displays a confused smiley."

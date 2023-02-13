@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "4-lastlines" "head -n 10 /etc/passwd" "Display the last 10 lines of /etc/passwd."
+bash auto-publich-script "4-lastlines" "head -10 /etc/passwd" "Display the last 10 lines of /etc/passwd."

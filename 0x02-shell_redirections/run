@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "1-confused_smiley" "echo \"\\\"(Ôo)'\"" "script that displays a confused smiley."
+bash auto-publich-script "2-hellofile" "cat /etc/passwd" "Display the content of the /etc/passwd file."

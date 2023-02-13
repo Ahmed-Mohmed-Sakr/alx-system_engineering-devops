@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "18-letteronly" "grep [[:alpha:]*] /etc/ssh/sshd_config" "Display all lines of the file /etc/ssh/sshd_config starting with a letter."
+bash auto-publich-script "18-letteronly" "grep ^[[:alpha:]*] /etc/ssh/sshd_config" "Display all lines of the file /etc/ssh/sshd_config starting with a letter."

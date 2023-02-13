@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "21-reverse" "rev" "script that reverse its input."
+bash auto-publich-script "22-users_and_homes" "cut -d\":\" -f 1,6 /etc/passwd | sort" "script that displays all users and their home directories, sorted by users."

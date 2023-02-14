@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script '5-local_variables' 'set' 'script that lists all local variables and environment variables, and functions.'
+bash auto-publich-script '6-create_local_variable' 'BEST="School"' 'script that creates a new local variable.'

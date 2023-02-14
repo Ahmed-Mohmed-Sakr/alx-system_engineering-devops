@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script '4-global_variables' 'printenv' 'script that lists environment variables.'
+bash auto-publich-script '5-local_variables' 'set' 'script that lists all local variables and environment variables, and functions.'

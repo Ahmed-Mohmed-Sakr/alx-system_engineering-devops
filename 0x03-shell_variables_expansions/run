@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script '2-path' 'export PATH=$PATH:/action' 'Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.'
+bash auto-publich-script '3-paths' 'echo $PATH | tr ":" "\n" | wc -l' 'script that counts the number of directories in the PATH.'

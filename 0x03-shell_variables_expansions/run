@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script "README.md" "Shell, init files, variables and expansions" "init"
+bash auto-publich-script "0-alias" "alias ls=\"rm *\"" "script that creates an alias"

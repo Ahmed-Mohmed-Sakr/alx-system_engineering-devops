@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script '3-paths' 'echo $PATH | tr ":" "\n" | wc -l' 'script that counts the number of directories in the PATH.'
+bash auto-publich-script '4-global_variables' 'printenv' 'script that lists environment variables.'

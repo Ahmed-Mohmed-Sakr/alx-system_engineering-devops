@@ -1,2 +1,2 @@
 #!/bin/bash
-bash auto-publich-script '13-print_float' 'printf "%.2f \n" $NUM' ' script that prints a number with two decimal places, followed by a new line.  The number will be stored in the environment variable NUM.'
+bash auto-publich-script '13-print_float' 'printf "%.2f\n" $NUM' ' script that prints a number with two decimal places, followed by a new line.  The number will be stored in the environment variable NUM.'
